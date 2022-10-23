@@ -83,7 +83,7 @@ sudo systemctl start bazuka
 ```
 journalctl -u bazuka -fo cat
 ```
-## Node durumunu görmek için:
+## Node durumuna bakmak için:
 ```
 bazuka status
 ```
