@@ -5,7 +5,7 @@
 
 ## Sistem gereksinimleri (minimum):
 ```
-2CPU, 4GB RAM, Ubuntu 20.04 işletim sistemi
+2CPU, 4GB RAM, 50GB SSD, Ubuntu 20.04 işletim sistemi
 ```
 
 ## Sunucu güncellemesi ve gerekli kütüphanelerin kurulumu ile başlıyoruz
@@ -86,6 +86,10 @@ journalctl -u bazuka -fo cat
 ## Node durumuna bakmak için:
 ```
 bazuka status
+```
+## Cüzdan bilgileri:
+```
+bazuka wallet
 ```
 ## Node durdurma:
 ```
