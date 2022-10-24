@@ -103,9 +103,31 @@ systemctl start bazuka
 ```
 systemctl restart bazuka
 ```
+# Güncelleme duyurulduğunda node güncellemek için
+```
+systemctl stop bazuka
+```
+```
+cd bazuka
+```
+```
+git pull origin master
+```
+```
+cargo install --path .
+```
+```
+systemctl start bazuka
+```
+```
+systemctl restart bazuka
+```
 
+## Versiyonu kontrol etmek için
 
-
+```
+bazuka status
+```
 
 
 
